@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jp.co.drecom.spice.nearby.MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_nearby_init"
+        android:text="nearby initialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_publish_msg1"
+        android:text="publish1 message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_publish_msg1_type1"
+        android:text="publish message1(type1)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_publish_msg2"
+        android:text="publish message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_publish_msg2_type2"
+        android:text="publish message2(type2)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_publish_msg3"
+        android:text="publish3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_subscribe"
+        android:text="subscribe all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_subscribe_type1"
+        android:text="subscribe type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_subscribe_type12"
+        android:text="subscribe type1 and 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+    <Button
+        android:id="@+id/btn_unsubscribe"
+        android:text="unsubscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBtnClick"/>
+</LinearLayout>
+</ScrollView>
